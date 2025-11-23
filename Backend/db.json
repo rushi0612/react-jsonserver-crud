@@ -1,0 +1,262 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 16",
+      "price": 79999,
+      "category": "Mobile",
+      "image": "https://m.media-amazon.com/images/I/414+xRBltFL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Latest Apple iPhone with A16 Bionic chip and advanced camera system"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23",
+      "price": 74999,
+      "category": "Mobile",
+      "image": "https://m.media-amazon.com/images/I/41X9qNxoJKL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Flagship Samsung mobile with AMOLED display and powerful Snapdragon processor"
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 11",
+      "price": 56999,
+      "category": "Mobile",
+      "image": "https://https://m.media-amazon.com/images/I/414+xRBltFL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Premium OnePlus device with Hasselblad camera and smooth performance"
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi Redmi Note 12",
+      "price": 17999,
+      "category": "Mobile",
+      "image": "https://via.placeholder.com/150",
+      "description": "Budget-friendly phone with excellent battery life and display"
+    },
+    {
+      "id": 5,
+      "name": "Realme GT Neo 3",
+      "price": 32999,
+      "category": "Mobile",
+      "image": "https://via.placeholder.com/150",
+      "description": "Performance-oriented phone with superfast charging"
+    },
+    {
+      "id": 6,
+      "name": "Sony WH-1000XM4",
+      "price": 24990,
+      "category": "Headphones",
+      "image": "https://via.placeholder.com/150",
+      "description": "Industry-leading noise-canceling Bluetooth headphones"
+    },
+    {
+      "id": 7,
+      "name": "JBL Tune 760NC",
+      "price": 5999,
+      "category": "Headphones",
+      "image": "https://via.placeholder.com/150",
+      "description": "Lightweight wireless headphones with active noise cancellation"
+    },
+    {
+      "id": 8,
+      "name": "Boat Rockerz 450",
+      "price": 1299,
+      "category": "Headphones",
+      "image": "https://via.placeholder.com/150",
+      "description": "Affordable Bluetooth headphones with deep bass sound"
+    },
+    {
+      "id": 9,
+      "name": "Apple AirPods Pro 2",
+      "price": 26990,
+      "category": "Earbuds",
+      "image": "https://via.placeholder.com/150",
+      "description": "Premium earbuds with adaptive transparency and rich sound"
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy Buds 2",
+      "price": 9990,
+      "category": "Earbuds",
+      "image": "https://via.placeholder.com/150",
+      "description": "Compact earbuds with balanced audio and noise cancellation"
+    },
+    {
+      "id": 11,
+      "name": "Dell Inspiron 15",
+      "price": 56990,
+      "category": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "description": "Powerful Windows laptop for work and entertainment"
+    },
+    {
+      "id": 12,
+      "name": "HP Pavilion 14",
+      "price": 60990,
+      "category": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "description": "Stylish lightweight laptop with powerful performance"
+    },
+    {
+      "id": 13,
+      "name": "Lenovo ThinkPad E14",
+      "price": 52990,
+      "category": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "description": "Business laptop with strong build quality and long battery life"
+    },
+    {
+      "id": 14,
+      "name": "Asus VivoBook 15",
+      "price": 45990,
+      "category": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "description": "Affordable laptop with full HD display and fast performance"
+    },
+    {
+      "id": 15,
+      "name": "MacBook Air M2",
+      "price": 99990,
+      "category": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "description": "Ultra-thin laptop powered by Apple's M2 chip"
+    },
+    {
+      "id": 16,
+      "name": "Canon EOS 1500D",
+      "price": 36990,
+      "category": "Camera",
+      "image": "https://via.placeholder.com/150",
+      "description": "Beginner-friendly DSLR camera with great image quality"
+    },
+    {
+      "id": 17,
+      "name": "Nikon D3500",
+      "price": 42990,
+      "category": "Camera",
+      "image": "https://via.placeholder.com/150",
+      "description": "Lightweight DSLR known for superb battery life"
+    },
+    {
+      "id": 18,
+      "name": "Sony Alpha A6100",
+      "price": 71990,
+      "category": "Camera",
+      "image": "https://via.placeholder.com/150",
+      "description": "Mirrorless camera with fast autofocus and 4K video"
+    },
+    {
+      "id": 19,
+      "name": "GoPro Hero 11",
+      "price": 49990,
+      "category": "Action Camera",
+      "image": "https://via.placeholder.com/150",
+      "description": "Compact action camera perfect for vlogging and adventures"
+    },
+    {
+      "id": 20,
+      "name": "DJI Osmo Pocket 2",
+      "price": 27990,
+      "category": "Camera",
+      "image": "https://via.placeholder.com/150",
+      "description": "Portable camera with built-in gimbal for smooth videos"
+    },
+    {
+      "id": 21,
+      "name": "LG 55-inch 4K Smart TV",
+      "price": 52990,
+      "category": "Television",
+      "image": "https://via.placeholder.com/150",
+      "description": "Large 4K TV with smart features and vivid picture quality"
+    },
+    {
+      "id": 22,
+      "name": "Samsung 43-inch Crystal 4K",
+      "price": 36990,
+      "category": "Television",
+      "image": "https://via.placeholder.com/150",
+      "description": "Smart 4K TV with Crystal display technology"
+    },
+    {
+      "id": 23,
+      "name": "Sony Bravia 50-inch 4K",
+      "price": 63990,
+      "category": "Television",
+      "image": "https://via.placeholder.com/150",
+      "description": "Premium 4K Smart TV with Dolby Vision support"
+    },
+    {
+      "id": 24,
+      "name": "TCL 40-inch Smart TV",
+      "price": 19990,
+      "category": "Television",
+      "image": "https://via.placeholder.com/150",
+      "description": "Affordable smart TV with strong performance"
+    },
+    {
+      "id": 25,
+      "name": "Mi 55-inch QLED 4K",
+      "price": 45990,
+      "category": "Television",
+      "image": "https://via.placeholder.com/150",
+      "description": "QLED 4K TV with immersive picture quality"
+    },
+    {
+      "id": 26,
+      "name": "Apple Watch Series 9",
+      "price": 41990,
+      "category": "Wearable",
+      "image": "https://via.placeholder.com/150",
+      "description": "Premium smartwatch with health tracking and OLED display"
+    },
+    {
+      "id": 27,
+      "name": "Samsung Galaxy Watch 6",
+      "price": 32990,
+      "category": "Wearable",
+      "image": "https://via.placeholder.com/150",
+      "description": "Feature-packed smartwatch with long battery life"
+    },
+    {
+      "id": 28,
+      "name": "Fitbit Charge 5",
+      "price": 12999,
+      "category": "Wearable",
+      "image": "https://m.media-amazon.com/images/I/41xaFKBqogL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Advanced fitness tracker with built-in GPS"
+    },
+    {
+      "id": 29,
+      "name": "Noise ColorFit Ultra 3",
+      "price": 3999,
+      "category": "Wearable",
+      "image": "https://m.media-amazon.com/images/I/51NhMyKPq5L._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Budget-friendly smartwatch with all essential features"
+    },
+    {
+      "id": 30,
+      "name": "Boat Wave Sigma",
+      "price": 2499,
+      "category": "Wearable",
+      "image": "https://m.media-amazon.com/images/I/41Is4UKx+DL._SY300_SX300_QL70_FMwebp_.jpg",
+      "description": "Stylish smartwatch with fitness tracking and long battery backup"
+    },
+    {
+      "name": "redmi",
+      "price": 455,
+      "category": "Mobile",
+      "imageFilename": "1763901584813-id2.png",
+      "description": "redmo note 8",
+      "createdAt": "2025-11-23T12:39:44.844Z",
+      "id": 31
+    },
+    {
+      "name": "accer aspire 5",
+      "price": 78555,
+      "category": "Laptop",
+      "imageFilename": "1763902255933-81x3tKnUBaL._SL1500_.jpg",
+      "description": "Shop the best Acer Aspire 5 i5,i3, i7 and AMD Processor laptops for home, business, and gaming. Explore thin and light designs, exclusive offers",
+      "createdAt": "2025-11-23T12:50:55.938Z",
+      "id": 32
+    }
+  ]
+}
