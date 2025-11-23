@@ -59,7 +59,9 @@ export function ProductList2() {
                                         <td>{product.name}</td>
                                         <td>{product.price}$</td>
                                         <td>{product.category}</td>
-                                        <td><img src={product.image} alt={product.name} width={60} height={60} /></td>
+                                        <td>
+                                            <img src={ product.image ? product.image : product.imageFilename ? `http://localhost:4000/images/${product.imageFilename}` : 'https://via.placeholder.com/60'} alt={product.name} width={60} height={60}  />
+                                        </td>
                                         <td>{product.description}</td>
                                         <td style={{width: "10px", whiteSpace:"nowrap "}}>
                                             <Link className="btn btn-primary btn-sm me-1" to={"/admin/products/edit/" + product.id}>Edit</Link>

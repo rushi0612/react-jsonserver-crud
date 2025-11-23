@@ -1,13 +1,47 @@
-import { Link } from "react-router-dom";
+import { use } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function CreateProduct() {
+
+    const navigate = useNavigate()
+
+    async function handelSubmit(event){
+        event.preventDefault()
+        const formData = new FormData(event.target)
+        const product = Object.fromEntries(formData.entries())
+        
+        if (!product.name  || !product.price || !product.category || !product.description || !product.image.name) {
+            alert("Please fill all the fields")
+            return
+        }
+        try{
+            const response = await fetch("http://localhost:4000/products", {
+                method:"POST",
+                body: formData
+        })
+        const data = await response.json()
+        if (response.ok){
+            navigate("/admin/products")
+        }
+        else if(response.status === 400){
+            alert("Validation error")
+        }
+        else{
+            alert("Unable to create the product!")
+        }
+    }
+    catch(error){
+        alert("Unable to connect to the server!")
+
+    }
+}
     return (
         <div className="container my-4">
             <div className="row">
                 <div className="col-md-8 mx-auto rounded border p-4">
                     <h2 className="text-center mb-5">Create Product</h2>
 
-                    <form>
+                    <form onSubmit={handelSubmit}>
                         <div className="row mb-3">
                             <label className="col-sm-4 col-form-label">Name</label>
                             <div className="col-sm-8">
