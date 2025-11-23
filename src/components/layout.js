@@ -25,7 +25,7 @@ export function Navbar() {
             Admin
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/product">Product</Link></li>
+            <li><Link className="dropdown-item" to="/admin/products">Product</Link></li>
             <li><Link className="dropdown-item" to="/profile">Profile</Link></li>
             <li><hr className="dropdown-divider" /></li>
             <li><Link className="dropdown-item" to="/logout">Logout</Link></li>
