@@ -7,7 +7,7 @@ export function ProductList2() {
     const [products, setProducts] = useState([])
 
     function getProducts(){
-        fetch("http://localhost:4000/products")
+        fetch("http://localhost:4000/products?_sort=id&_order=desc")
         .then(response => {
             if(response.ok){
                 return response.json()
@@ -60,7 +60,6 @@ export function ProductList2() {
                                         <td>{product.price}$</td>
                                         <td>{product.category}</td>
                                         <td><img src={product.image} alt={product.name} width={60} height={60} /></td>
-                                        <td></td>
                                         <td>{product.description}</td>
                                         <td style={{width: "10px", whiteSpace:"nowrap "}}>
                                             <Link className="btn btn-primary btn-sm me-1" to={"/admin/products/edit/" + product.id}>Edit</Link>
