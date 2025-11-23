@@ -63,7 +63,7 @@ export function ProductList2() {
                                         <td></td>
                                         <td>{product.description}</td>
                                         <td style={{width: "10px", whiteSpace:"nowrap "}}>
-                                            <Link className="btn btn-primary btn-sm me-1" to={"/admin/products/edit" + product.id}>Edit</Link>
+                                            <Link className="btn btn-primary btn-sm me-1" to={"/admin/products/edit/" + product.id}>Edit</Link>
                                             <button type="button" className="btn btn-danger btn-sm">Delete</button>
                                         </td>
                                     </tr>
