@@ -7,6 +7,7 @@ import { Contact } from "./pages/Contact";
 import { NotFound } from "./pages/NotFound";
 import { ProductList2 } from "./pages/admin/products/ProductList2";
 import CreateProduct from "./pages/admin/products/CreateProduct";
+import EditProduct from "./pages/admin/products/EditProduct";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/admin/products' element={<ProductList2 />} />
         <Route path='/admin/products/create' element={<CreateProduct />} />
+        <Route path='/admin/products/edit/:id' element={<EditProduct />} />
         
         <Route path='*' element={<NotFound />} />
         
